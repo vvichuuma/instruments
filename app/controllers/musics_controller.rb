@@ -13,5 +13,11 @@ class MusicsController < ApplicationController
  end
 
 
+ def test
+    render json:{vish:"he is a Computer Programmer and a software developer"}
+   
+ end
+
+
 
 end

@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   post "musics" => "musics#vichu"
 
 
+  get "testy" => "musics#test"
+
 
 
 
